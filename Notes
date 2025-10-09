@@ -26,3 +26,35 @@ HTML - Hyper text markup language
 
 10) forms
 i - input and label
+
+11) Media Elements
+i - Audio
+ii - Video 
+
+12) Semantic Tags
+header, section, footer, main, nav....
+
+13) Division tag
+div
+
+
+
+CSS - Cascading Style sheet
+
+1) Types of CSS
+i - Inline 
+ii - Internal
+iii - External
+Inline > Internal > External
+
+2) Css Synatax
+selector{
+    property:value;
+}
+
+3) Types of Selectors
+i - Elements selector - (h1) (p)
+ii - Class selector (.) - Multiple for number of times
+iii - Id selector (#) - unique
+iv - Universal Selector (*) - for the entire site
+v - Group Selector - same div class of different tags can apply the same style...
