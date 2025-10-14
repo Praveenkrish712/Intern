@@ -78,3 +78,14 @@ CSS - Cascading Style sheet
    padding 
    content
 
+7. Flex - Display
+   display - Flex;
+   direction - row, row-reverse, column, column-reverse
+   justify content (X): start, center, end, space-around, space-evenly, space-between
+   align-items (Y) - Start, center, end
+   flex-wrap - no-wrap, wrap
+   align-content (for only wrap will enable then only it will act) - start, center, end, space-around, space-evenly, space-between
+   gap - to be assign with values
+   flex(on item) - to be grow
+   order - change the visual order of the flex
+
