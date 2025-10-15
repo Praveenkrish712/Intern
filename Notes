@@ -75,7 +75,7 @@ CSS - Cascading Style sheet
 6. Box Modeling
    margin
    border
-   padding 
+   padding
    content
 
 7. Flex - Display
@@ -89,3 +89,11 @@ CSS - Cascading Style sheet
    flex(on item) - to be grow
    order - change the visual order of the flex
 
+8. Position
+   i - Static (default) 
+   ii - relative  
+   iii - absolute
+   iv - fixed
+   v - sticky
+
+9. Grid   
