@@ -132,9 +132,9 @@ h2{
     /* gap: 10px; */
 /* } */
 
-h2{
+/* h2{
     background-color: red;
-}
+} */
 
 .box{
     width: 200px;
@@ -224,7 +224,7 @@ h2{
     grid-template-areas: 
     "h h h h h"
     "sb1 m m m sb2"
-    "f f f f  f";
+    "f f f f f";
 }
 
 .header{
@@ -245,4 +245,72 @@ h2{
 
 .footer{
     grid-area: f;
+}
+
+.square{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    transition-duration: 5s;
+    /* transition-property: background-color; */
+    transition-timing-function: linear;
+    /* transition-delay: 3s; */
+}
+
+.square:hover{
+    width: 600px;
+    background-color: crimson;
+    transform: translate(20px);
+}
+
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 5s;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes circle{
+    50%{
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        left: 100px;
+    }
+
+    100%{
+        background-color: yellow;
+        width: 400px;
+        height: 400px;
+        left: 150px;
+    }
+}
+
+
+
+
+@media screen and (max-width:320px) {
+    h1{
+        color: red;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width:500px) {
+    h2{
+        color: coral;
+    }
+}
+
+@media screen and (max-width:375px) {
+    h3{
+        background-color: hotpink;
+        font-size: 45px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 }

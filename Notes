@@ -97,3 +97,10 @@ CSS - Cascading Style sheet
    v - sticky
 
 9. Grid - 2 dimensional layout System
+
+10. Transition and Animation
+
+11. Media Queries (Responsive Design)
+    mobile - 320px to 600px
+    tab - 601px to 800px
+    lap/desktop - 801px and above
